@@ -2,10 +2,180 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/Styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <!-- Se emplea Material Disign para complementar los iconos que se solicitan en la página -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Chukwudi</title>
 </head>
 <body>
-    hola mundo
+    
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <div id="sidebar" class="">
+                    <h1>Panel Menu</h1>
+                    <ul>
+                        <li><a href="">menu1</a></li>
+                        <li><a href="">menu2</a></li>
+                        <li><a href="">menu3</a></li>
+                        <li><a href="">menu4</a></li>
+                    </ul>
+                </div>
+                <i class="material-icons btnmenu">menu</i>
+                <h4>Chukwudi</h4>
+            </div>
+            <div class="busqueda">
+                <img src="icons/Lupa.svg" alt="Search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="usuario">
+                <img src="icons/User.svg" alt="">
+                <div class="notificaciones">3</div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="banner">
+                <img src="img/headerimage.png" alt="HeaderImage">
+                <div class="texto">
+                    <p class="texto_p1">$0 delivery for 30 days! <img src="img/d.png" alt="Festivo"></p>
+                    <p class="texto_p2">$0 delivery fee for orders over $10 for 30 days</p>
+                    <p class="texto_p3">Learn more <i class="fas fa-arrow-right"></i> </p>
+                </div>
+            </div>    
+            <div class="titulo">
+                <b>Restaurants <img src="icons/HamburguesaColor.svg" alt="HamburguesaColor"></b>
+                <div class="delivery">
+                    <i class="material-icons">access_time</i><p>Delivery 
+                        <select name="Time" id="time">
+                            <option value="">now</option>
+                            <option value="">later</option>
+                        </select>
+                    </p>
+                </div>
+            </div>
+            <div class="secciones">
+                <div class="categoria Seleccionada"  id="opc1">
+                    <div class="icono"><img src="icons/Mano_Bandeja.svg" alt=""></div>
+                    <p>All</p>
+                </div>
+                <div class="categoria" id="opc2">
+                    <div class="icono"><img src="icons/Pizza.svg" alt=""></div>
+                    <p>Pizza</p>
+                </div>
+                <div class="categoria" id="opc3">
+                    <div class="icono"><img src="icons/Spaguetti.svg" alt=""></div>
+                    <p>Asian</p>
+                </div>
+                <div class="categoria" id="opc4">
+                    <div class="icono"><img src="icons/Hamburguesa_BN.svg" alt=""></div>
+                    <p>Burgers</p>
+                </div>
+                <div class="categoria" id="opc5">
+                    <div class="icono"><img src="icons/Bistec.svg" alt=""></div>
+                    <p>Barbecue</p>
+                </div>
+                <div class="categoria" id="opc6">
+                    <div class="icono"><img src="icons/Muffin.svg" alt=""></div>
+                    <p>Dessers</p>
+                </div>
+                <div class="categoria" id="opc7">
+                    <div class="icono"><img src="icons/Pinna.svg" alt=""></div>
+                    <p>Thai</p>
+                </div>
+                <div class="categoria" id="opc8">
+                    <div class="icono"><i class="material-icons">store</i></div>
+                    <p>Sushi</p>
+                </div>
+                
+                <img id="slide" type="button" src="icons/Punta_Flecha.svg" alt="">
+            </div>
+            
+            <div class="comidas">
+                <div class="producto">
+                    <div class="foto"><img src="img/pexels-photo-262959.jpeg" alt=""></div>
+                    <p class="preparacion">25-30 min</p>
+                    <p>Bagel Story</p>
+                    <p class="infoProducto"><b><img src="icons/Estrella.svg" alt=""> 4.7</b> Deli Bagels $$ </p>
+                </div>
+                <div class="producto">
+                    <div class="foto"><img src="img/pexels-photo-461198.jpeg" alt=""><p class="preparacion">30-35 min</p></div>
+                    
+                    <p>The Estaminet</p>
+                    <p class="infoProducto"><b><img src="icons/Estrella.svg" alt=""> 4.5</b> Cafes Bagels $ </p>
+                </div>
+                <div class="producto">
+                    <div class="foto"><img src="img/pexels-photo-675951.jpeg" alt=""></div>
+                    <p class="preparacion">40-60 min</p>
+                    <p>Le Paris Dakar</p>
+                    <p class="infoProducto"><b><img src="icons/Estrella.svg" alt=""> 4.6</b> Creperies Sandwich $$ </p>
+                </div>
+                
+            </div>
+        </main>
+        
+        <aside>
+            <div class="myOrder">
+                <b>My <img src="icons/emoji.png" alt=""><br> Order</b>
+            </div>
+            <div class="tiempo">
+                <p class="tiempoP1">625 St Marks Ave</p>
+                <p class="tiempoP2"><i class="far fa-clock"></i> 35 min</p>
+                <p class="tiempoP3"><a href="">Edit</a></p>
+                <p class="tiempoP4"><a href="">Choose time</a></p>
+            </div>
+            <div class="orden">
+                <div class="info">
+                    <div class="fotoInfo"><img src="img/pexels-photo-1099680.jpeg" alt=""><img src="" alt=""></div>
+                    <div class="cantidad">1 x</div>
+                    <div class="Nombre">Beach BBQ Burger</div>
+                    <div class="Precio">$14.99</div>
+                </div>
+                <div class="info">
+                    <div class="fotoInfo"><img src="img/pexels-photo-156114.jpeg" alt=""></div>
+                    <div class="cantidad">1 x</div>
+                    <div class="Nombre">French Fries</div>
+                    <div class="Precio">$14.99</div>
+                </div>
+                <div class="info">
+                    <div class="fotoInfo"><img src="img/pexels-photo-376464.jpeg" alt=""></div>
+                    <div class="cantidad">1 x</div>
+                    <div class="Nombre">Cheese Sauce</div>
+                    <div class="Precio">$14.99</div>
+                </div>
+                <div class="info">
+                    <div class="fotoInfoD"><img src="icons/Delivery.svg" alt=""></div>
+                    <div class="NombreD">Delivery</div>
+                    <div class="PrecioD">$0.00</div>
+                </div>
+            </div>
+            <div class="total">
+                <div class="totalCash">
+                    <p>Total:</p>
+                    <b>$25.97</b>
+                </div>
+                <div class="divide">
+                    <div class="persons">
+                        <p>Persons</p>
+                        <div class="contador">
+                            <i class="material-icons" id="minus" onclick="disminuir()">remove</i>
+                            <input type="text" id="Num" class="num" value="1" readonly>
+                            <i class="material-icons" id="plus" onclick="aumentar();">add</i>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <p>Checkout</p><img src="icons/Flecha_Derecha.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </aside>
+        
+    </div>
+    
+    <script src="js/Chuckwudi.js"></script>
+    <script src="js/prefix.js"></script>
+    
 </body>
 </html>
